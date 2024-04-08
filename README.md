@@ -44,8 +44,9 @@ This project utilizes Redux for state management. Two reducers are implemented:
 
 2. **ProductDetails**
    This component displays the details of a specific product. It retrieves the product details from the Redux store based on the product ID.
+   Users should be able to add products to the cart from this component.
 
 3. **ShoppingCart**
-   The ShoppingCart component manages the shopping cart functionality. It displays the list of products added to the cart.
+   The ShoppingCart component manages the shopping cart functionality. It displays the list of products added to the cart, allows users to modify quantities & delete products from the cart.
 
 **NOTE**: You're free to style your application using any CSS library of your choice.
